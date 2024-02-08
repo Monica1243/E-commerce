@@ -1,0 +1,79 @@
+.window {
+    margin: auto;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: var(--background-color);
+    min-height: 500px;
+    min-width: 450px;
+}
+
+.window .head-content {
+    height: 5em; /* Adjust the height as needed */
+    background-color: var(--background-color);
+    position: sticky; /* Sticky header */
+}
+
+.window .head-content .centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.window .head-content .centered img{
+    max-width: 10em;
+    max-height: 10em;
+}
+
+.window .container{
+    padding: 0 15% 0 15%;
+    justify-content: center;
+    width: 22em;
+    margin: 0 auto; /* Centering the container horizontally */
+}
+
+
+button{
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 8px;
+    color: var(--background-color);
+    cursor: pointer;
+    margin-bottom: 5%;
+}
+
+button:hover{
+    background-color: var(--button-hover);
+}
+
+.anchor-tag{
+    color: var(--anchor-color);
+    text-decoration: none;
+}
+
+.anchor-tag:hover{
+    color: var(--hover-color);
+    text-decoration: underline;
+}
+
+footer {
+    margin-top: 2em; /* Adjust margin-top to push footer to the bottom */
+    box-shadow: 0px -5px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.foot-content {
+    width: 20em;
+    display: flex;
+    font-size: 0.75em;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.copyright {
+    font-size: 0.75em;
+}
